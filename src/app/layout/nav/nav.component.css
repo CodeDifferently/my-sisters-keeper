@@ -26,7 +26,7 @@
   outline: none;
 }
 
-  #mainNav.navbar-brand {
+ .navbar-brand {
   color: #161616;
   font-weight: 700;
   padding: .9rem 0;
@@ -73,7 +73,7 @@
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
   }
-  .navbar-brand {
+.navbar-brand {
     display: inline-block;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
@@ -142,5 +142,4 @@ li, .dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 }
