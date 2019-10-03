@@ -28,6 +28,8 @@ body {
     }
     .footer {
       height: 500px;
+    padding: 5rem 0;
+      
     }
 }
 
@@ -35,7 +37,7 @@ body {
 -------------------------------------------------- */
 footer {
   padding-top: 30px;
-  background-color:#ff0080;
+  background-color:#ff1a75;
   /* color: #ff8400; */
   color: white 
 }

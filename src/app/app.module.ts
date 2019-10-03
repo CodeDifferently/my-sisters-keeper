@@ -8,13 +8,15 @@ import { ContentLayoutComponent } from './layout/content-layout/content-layout.c
 import { NavComponent } from './layout/nav/nav.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NewsComponent } from './news/page/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     FooterComponent,
-    ContentLayoutComponent
+    ContentLayoutComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

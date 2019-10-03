@@ -1,3 +1,11 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .masthead {
     position: relative;
     width: 100%;
@@ -7,11 +15,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size: cover;
+    background-size: contain;
+    /* background: -webkit-linear-gradient(rgba(255, 0,96, 0.9), rgba(0, 0,0, 0)); */
   }
   .header-overlay {
-      background-color: rgba(255,192,203 ,0.7 );
-      position: absolute;
+      position: relative;
       top: 0;
       left: 0;
       width: 100%;
@@ -27,7 +35,8 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
-  
+
+
   .masthead h2 {
     max-width: 20rem;
     font-size: 1rem;
@@ -42,8 +51,10 @@
   
   @media (min-width: 992px) {
     .masthead {
+      margin: auto;
       height: 100vh;
       padding: 0;
+      max-width: 1000px; 
     }
     .masthead h1 {
       font-size: 6.5rem;
@@ -84,3 +95,5 @@
   .btn-primary:active {
     background-color:  #d580ff!important;
   }
+
+
